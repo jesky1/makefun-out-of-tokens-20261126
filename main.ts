@@ -7,6 +7,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // error. Twist: the error message itself is the victim — it announces its
 // own termination and gets cut off mid-word ("mid-sen—"), so the line
 // demonstrates the failure it describes. Punchline lands at the very end.
+// The 68-character line fits the 1..140 gate with room to spare, and the
+// em-dash is the joke's full stop: the sentence never gets to finish.
 export const LINE =
   "Error: out of tokens. This error message will now terminate mid-sen—";
 
