@@ -1,0 +1,1 @@
+{"description":"One funny line for make.fun: an AI error message that runs out of tokens mid-sentence — and cuts itself off","license":"MIT","name":"makefun-out-of-tokens-20261126","private":true,"scripts":{"start":"node main.ts","test":"node --test main.test.ts"},"type":"module","version":"1.0.0"}
